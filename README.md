@@ -79,8 +79,8 @@ The project uses the following libraries:
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourname/opengl-glb-renderer.git
-cd opengl-glb-renderer
+git clone https://github.com/Raftys/MiniGL-Renderer.git
+cd minigl-renderer
 ```
 
 ---
@@ -95,29 +95,6 @@ Make sure you have:
 * GLAD
 * Assimp
 * GLM
-
----
-
-## 3. Build
-
-Example using g++:
-
-```bash
-g++ main.cpp -o app ^
--lglfw ^
--lassimp ^
--lopengl32
-```
-
-Linux example:
-
-```bash
-g++ main.cpp -o app \
--lglfw \
--lGL \
--lassimp \
--ldl
-```
 
 ---
 
